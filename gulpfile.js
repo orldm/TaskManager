@@ -9,8 +9,6 @@ var $        = require('gulp-load-plugins')();
 var argv     = require('yargs').argv;
 var gulp     = require('gulp');
 var rimraf   = require('rimraf');
-// var browserSync = require('browser-sync');
-// var reload = browserSync.reload;
 var router   = require('front-router');
 var sequence = require('run-sequence');
 
